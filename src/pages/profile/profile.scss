@@ -1,0 +1,108 @@
+#profile{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    font-family: Manrope;
+}
+.header {
+    height: 20vh;
+}
+.profile-page{
+    display: flex;
+    height: 80vh;
+    margin: 20px;
+    margin-top: 230px;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.back-btn{
+    border: 1px solid lightgrey;
+    width: 28px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 10%;
+}
+.profile-data{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    height: 90%;
+}
+
+.details, .change-password{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+#profile-detail{
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: lightgrey;
+}
+.change-pass-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.change-pass-data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details-data{
+    width: 100%;
+}
+.change-password{
+    width: 40%;
+}
+.details{
+    width: 35%;
+}
+.details-header{
+    display: flex;
+    justify-content: space-between;
+}
+.detail-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.edit-data{
+    .user-data-item, .edit-modal-btn{
+        margin: 15px 5px;
+    }
+}
+.change-pass-btn, .edit-btn-comp {
+    background-color: #047857;
+    :hover {
+        background-color: #035c43
+    }
+}
+.sub-label {
+    align-self: stretch;
+    position: relative;
+    font-weight: 300;
+    color: #dc2626;
+    display: -webkit-inline-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 15;
+    -webkit-box-orient: vertical;
+    font-size: 13px;
+}
+.invalid-email-modal {
+    margin-bottom: 10px;
+    position: relative;
+    top: -5px;
+    left: 6px;
+}

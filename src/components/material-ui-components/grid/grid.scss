@@ -1,0 +1,21 @@
+.grid-head-cell {
+    color: var(--neutral-500, #64748B);
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 14px;
+}
+.grid-data-cell {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--neutral-800, #191D23);
+}
+.grid-container {
+    width: 100%;
+}
